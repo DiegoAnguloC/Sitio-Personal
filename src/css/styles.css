@@ -1,15 +1,20 @@
 @font-face {
     font-family: Neon;
-    src: url(fonts/NEON____.woff)format('truetype');
+    src: url('fonts/NEON____.woff');
 }
 
 
 @font-face {
     font-family: Rajdhani;
-    src: url(fonts/Rajdhani.ttf)format('truetype');
+    src: url('fonts/Rajdhani.woff');
+}
+
+@font-face {
+    font-family: Blogger Sans;
+    src: url('fonts/BloggerSans.woff');
 }
 *{
-    src: url();
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +31,7 @@ header{
     text-align: center;
     padding: 25px 0 40px;
     text-shadow: 3px -3px 80px rgb(32, 210, 207);
-    -webkit-text-stroke:0.1px rgb(10, 251, 219);
+    -webkit-text-stroke: 0.1px rgb(10, 251, 219);
     color: rgba(0, 0, 0,0.5);
     font-family: Neon,sans-serif;
     font-size: 30px;
@@ -36,18 +41,37 @@ footer{
     color: white;
     border: solid azure;
     padding: 5px;
-}
-nav>ul>li>a{
-    text-decoration: none;
     text-align: center;
-    color: pink;
-    padding: 12px 0 0 15px;
-    font-size: 18px;
+}
+li{
+    
+    margin: 0 75px ;
+    padding: 0 0 10px 10px;
 }
 
-li{
-    padding: 6px;
+nav{
+
 }
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 5px 2px 5px 0;
+}
+
+nav>ul>li>a{
+    background: darkblue;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 0 2px;
+    color: pink;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+
 audio{
     padding-left: 40%;
     
@@ -59,6 +83,9 @@ audio{
     padding: 30px 80px;
     display: block;
 }
+p{
+    font-family: 'Blogger Sans';
+}
 .main p{
     text-align: left;
     font-weight: lighter;
@@ -68,8 +95,8 @@ audio{
     border-radius: 0px;
     color: aquamarine;
     width: auto;
-    font-size: 18px;
-    border: solid aqua;
+    font-size: 19px;
+    border: 1px solid aqua;
 }
 
 .main img{
@@ -88,13 +115,13 @@ audio{
     font-family: Rajdhani, sans-serif;
     font-weight: bold;
 }
-
-
 .sub{
-    padding: 0 80px 0 30px;
+    padding: 0 30px 0 20px;
 }
 
 
+
+/*********************************************/
 .dif{
     background: linear-gradient(rgb(57, 0, 28),rgb(0, 50, 74));
     background-repeat: no-repeat;
