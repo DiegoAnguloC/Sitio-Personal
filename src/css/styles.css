@@ -36,13 +36,6 @@ header{
     font-family: Neon,sans-serif;
     font-size: 30px;
 }
-
-footer{
-    color: white;
-    border: solid azure;
-    padding: 5px;
-    text-align: center;
-}
 li{
     
     margin: 0 75px ;
@@ -50,15 +43,20 @@ li{
 }
 
 nav{
-
+    padding: 15px;
+    border: 2px solid blue;
 }
 
 ul{
     display: flex;
     justify-content: center;
-    padding: 5px 2px 5px 0;
+    padding: 15px 22px 15px 0;
 }
-
+nav>ul>h2{
+    color: white;
+    font-family: Rajdhani;
+    font-weight: bold;
+}
 nav>ul>li>a{
     background: darkblue;
     padding: 5px 5px;
@@ -68,15 +66,34 @@ nav>ul>li>a{
     color: pink;
     font-size: 18px;
     text-align: center;
+    font-family: Blogger Sans;
     
 }
+nav ul li a:hover{
+	background: violet;
+    box-shadow: 0 0 33px violet;
+    color: blue;
+}
+footer{
+    box-sizing: content-box;
+    color: white;
+    border: solid azure;
+    padding: 5px;
+    text-align: center;
+}
+
+
 
 
 audio{
     padding-left: 40%;
+    border:2px solid white;
     
 }
 
+.subtitle{
+    color: aquamarine;
+}
 /****************************/
 .main{
     text-align: center;
@@ -86,6 +103,7 @@ audio{
 p{
     font-family: 'Blogger Sans';
 }
+
 .main p{
     text-align: left;
     font-weight: lighter;
@@ -98,11 +116,16 @@ p{
     font-size: 19px;
     border: 1px solid aqua;
 }
-
+.more-info{
+    margin: 20px auto;
+    padding: 5px;
+}
 .main img{
     margin: 0 auto;
     width: auto;
     height: 500px;
+    border-radius: 20%;
+    border: 2px solid rgb(172, 132, 1);
     box-shadow: 1px 2px 20 blueviolet;
 }
 .main h2{
@@ -115,9 +138,11 @@ p{
     font-family: Rajdhani, sans-serif;
     font-weight: bold;
 }
-.sub{
-    padding: 0 30px 0 20px;
+.sub1 h2{
+    color: aqua;
+    border: solid aqua;
 }
+
 
 
 
@@ -139,26 +164,40 @@ p{
 
 
 .main2 p{
+    text-align: left;
     font-weight: lighter;
     padding: 15px;
     /*background:linear-gradient(rgb(0, 123, 153),rgb(146, 0, 224) 80%);*/
-    background-color: rgb(43, 0, 53);
     margin: 40px auto;
-    border-radius: 15px;
-    color: rgb(199, 255, 109);
-    width: 350px;
-    box-shadow: 3px 5px 20px rgb(217, 255, 129), 3px -7px 12px rgb(124, 255, 146) ;
-    
+    border-radius: 0px;
+    color: rgb(255, 122, 251);
+    width: auto;
+    font-size: 19px;
+    border: 1px solid rgb(255, 79, 208);
 }
 .main2{
     text-align: center;
-    padding: 30px;
+    padding: 30px 80px;
+    display: block;
+}
+
+.main2 h2{
+    text-align: left;
+    padding: 5px;
+    color: #13dafeb3;
+    font-weight: lighter;
+    border: solid rgb(0, 247, 255);
+    width: 220px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: bold;
+}
+
+.sub2 h2{
+    color: violet;
+    border: solid rgb(162, 39, 162);
 }
 .main2 img{
-    margin: 0 auto;
-    width: auto;
-    height: 500px;
-    box-shadow: 3px 5px 20px violet, 3px -7px 12px aquamarine ;
+    
     
 }
 
@@ -190,30 +229,85 @@ p{
     height: 500px;
     box-shadow: 3px 5px 20px violet, 3px -7px 12px aquamarine ;
 }
+.main2 img{
+    margin: 0 auto;
+    width: auto;
+    height: 500px;
+    border-radius: 20%;
+    border: 2px solid rgb(255, 106, 7);
+    padding: 15px;
+    box-shadow: 1px 2px 20 rgb(192, 229, 31);
+}
+.mainalt img{
+    margin: 0 auto;
+    width: auto;
+    height: 500px;
+    border-radius: 20%;
+    border: 2px solid rgb(172, 132, 1);
+    box-shadow: 1px 2px 20 blueviolet;
+}
 .main3 p{
+    text-align: left;
     font-weight: lighter;
     padding: 15px;
     /*background:linear-gradient(rgb(0, 123, 153),rgb(146, 0, 224) 80%);*/
-    background-color: rgb(43, 0, 53);
     margin: 40px auto;
-    border-radius: 15px;
-    color: rgb(199, 255, 109);
-    width: 350px;
-    box-shadow: 3px 5px 20px rgb(217, 255, 129), 3px -7px 12px rgb(124, 255, 146) ;
+    border-radius: 0px;
+    color: rgb(255, 122, 251);
+    width: auto;
+    font-size: 19px;
+    border: 1px solid rgb(255, 79, 208);
     
+}
+.mainalt h2{
+    text-align: left;
+    padding: 5px;
+    color: #13dafeb3;
+    font-weight: lighter;
+    border: solid rgb(0, 247, 255);
+    width: 220px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: bold;
+}
+
+.sub3 h2{
+    color: rgb(54, 255, 117);
+    border: solid rgb(80, 255, 165);
 }
 
 .mainalt{
+    text-align: center;
+    padding: 30px 80px;
+    display: block;
+}
+
+.mainalt p{
+    text-align: left;
     font-weight: lighter;
     padding: 15px;
     /*background:linear-gradient(rgb(0, 123, 153),rgb(146, 0, 224) 80%);*/
-    background-color: rgb(43, 0, 53);
     margin: 40px auto;
-    border-radius: 15px;
-    color: rgb(199, 255, 109);
-    width: 185px;
-    box-shadow: 3px 5px 20px rgb(217, 255, 129), 3px -7px 12px rgb(124, 255, 146) ;
+    border-radius: 0px;
+    color: rgb(109, 255, 175);
+    width: auto;
+    font-size: 19px;
+    border: 1px solid rgb(72, 255, 164);
 }
 
+.main>p>img{
+    margin: 0 350px;
+}
 
+.main2>p>img{
+    margin: 0 500px;
+    filter: invert(1);
+    height: 500px;
+    width: auto;
+}
+.mainalt>p>img{
+    margin: 0 400px;
+    height: 650px;
+    width: auto;
+    filter: invert(1);
+}
 
