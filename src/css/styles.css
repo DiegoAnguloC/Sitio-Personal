@@ -37,8 +37,8 @@ header{
     font-size: 30px;
 }
 li{
-    
-    margin: 0 75px ;
+    display: flex;
+    margin: 0 75px;
     padding: 0 0 10px 10px;
 }
 
@@ -86,8 +86,9 @@ footer{
 
 
 audio{
-    padding-left: 40%;
-    border:2px solid white;
+    padding: 8px; 
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgb(111, 111, 111);
     
 }
 
@@ -121,12 +122,31 @@ p{
     padding: 5px;
 }
 .main img{
-    margin: 0 auto;
+    margin: 0 9px;
     width: auto;
     height: 500px;
     border-radius: 20%;
     border: 2px solid rgb(172, 132, 1);
     box-shadow: 1px 2px 20 blueviolet;
+}
+
+.main .imgd img{
+    width: auto;
+    height: 250px;
+    margin: 0 50px;
+    border:1px solid rgb(0, 98, 128);
+    padding: 5px;
+}
+.main h1{
+    text-align: left;
+    padding: 5px;
+    color: #5ee3f5b3;
+    font-weight: lighter;
+    border: solid rgb(192, 240, 255);
+    width: 220px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: bold;
+    margin: 15px;
 }
 .main h2{
     text-align: left;
@@ -137,6 +157,7 @@ p{
     width: 220px;
     font-family: Rajdhani, sans-serif;
     font-weight: bold;
+    margin: 15px;
 }
 .sub1 h2{
     color: aqua;
@@ -180,7 +201,17 @@ p{
     padding: 30px 80px;
     display: block;
 }
-
+.main2 h1{
+    text-align: left;
+    padding: 5px;
+    color: #5ee3f5b3;
+    font-weight: lighter;
+    border: solid rgb(192, 240, 255);
+    width: 220px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: bold;
+    margin: 15px;
+}
 .main2 h2{
     text-align: left;
     padding: 5px;
@@ -190,6 +221,14 @@ p{
     width: 220px;
     font-family: Rajdhani, sans-serif;
     font-weight: bold;
+}
+
+.main2 .imgd2 img{
+    width: auto;
+    height: 250px;
+    margin: 0 50px;
+    border:1px solid rgb(128, 0, 58);
+    padding: 5px;
 }
 
 .sub2 h2{
@@ -208,7 +247,7 @@ p{
     max-width: 100%;
     width: auto;
     height: 500px;
-    margin: 0 75px;
+    margin: 0 50px;
 }
 
 .minim p{
@@ -229,6 +268,8 @@ p{
     height: 500px;
     box-shadow: 3px 5px 20px violet, 3px -7px 12px aquamarine ;
 }
+
+
 .main2 img{
     margin: 0 auto;
     width: auto;
@@ -292,6 +333,14 @@ p{
     width: auto;
     font-size: 19px;
     border: 1px solid rgb(72, 255, 164);
+}
+
+.mainalt .imgd3 img{
+    width: auto;
+    height: 275px;
+    margin: 0 50px;
+    border:1px solid rgb(128, 0, 58);
+    padding: 5px;
 }
 
 .main>p>img{
