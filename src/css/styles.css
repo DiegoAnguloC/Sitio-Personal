@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: Blogger Sans;
+    font-family: Blogger Sans; /**/
     src: url('fonts/BloggerSans.woff');
 }
 *{
@@ -249,7 +249,11 @@ p{
     height: 500px;
     margin: 0 50px;
 }
-
+.minim img:hover{
+    
+    color: blue;
+    opacity: 30%;
+}
 .minim p{
     color: rgb(0, 254, 199);
     text-align: center;
