@@ -243,17 +243,24 @@ p{
 .minim{
     padding: 0 0 15px;
 }
+ul>li>a{
+    text-decoration: none;
+}
+
 .minim img{
-    max-width: 100%;
-    width: auto;
-    height: 500px;
+    color: transparent;
+    text-decoration: none;
+    width: 300px;
+    height: auto;
     margin: 0 50px;
+    
+    transition: all 0.5s ease;
 }
 .minim img:hover{
-    
-    color: blue;
-    opacity: 30%;
+    opacity: 20%;
+    color: black;
 }
+
 .minim p{
     color: rgb(0, 254, 199);
     text-align: center;
@@ -262,10 +269,12 @@ p{
     font-weight: normal;
     text-shadow: 4px 1px 18px rgb(235, 190, 255);
 }
+
 .main3{
     text-align: center;
     padding: 15px;
 }
+
 .main3 img{
     margin: 0 auto;
     width: auto;
@@ -363,4 +372,6 @@ p{
     width: auto;
     filter: invert(1);
 }
+
+
 
