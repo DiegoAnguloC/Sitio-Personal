@@ -167,7 +167,6 @@ p{
 
 .minim2{
     padding: 0 0 15px;
-    border-top: 10px;
     position: fixed;
 }
 ul>li>a{
@@ -182,15 +181,19 @@ a>h4{
     text-decoration: none;
     width: 200px;
     height: 80px;
-    margin: 20px auto;
+    margin: 15px auto;
     
 }
-.main_logo img{
+.main_content{
     margin: 0 350px;
+}
+.main_content img{
     height: 500px;
     width: auto;
 }
-
+.main_content h2{
+ margin: 0 0 10px;   
+}
 .minim2 .hob{
     background-image: url(../icons/icon_hobbies.svg);
     transition: all 0.5s ease;
