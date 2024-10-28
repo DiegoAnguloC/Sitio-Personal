@@ -1,17 +1,16 @@
 @font-face {
-    font-family: Neon;
-    src: url('fonts/NEON____.woff');
-}
-
-
-@font-face {
-    font-family: Rajdhani;
-    src: url('fonts/Rajdhani.woff');
+    font-family: BigShouldersEB;
+    src: url('../fonts/BigShouldersStencilDisplay-ExtraBold.ttf');
 }
 
 @font-face {
-    font-family: Blogger Sans; /**/
-    src: url('fonts/BloggerSans.woff');
+    font-family: Chapbook;
+    src: url('../fonts/Chapbook-Regular.otf');
+}
+
+@font-face {
+    font-family: ChildrenSans; /**/
+    src: url('../fonts/ChildrenSans.ttf');
 }
 *{
     box-sizing: border-box;
@@ -32,11 +31,10 @@ body{
 header{
     text-align: center;
     padding: 25px 0 40px;
-    text-shadow: 3px -3px 80px rgb(32, 210, 207);
-    -webkit-text-stroke: 0.1px rgb(10, 251, 219);
-    color: rgba(0, 0, 0,0.5);
-    font-family: Neon,sans-serif;
-    font-size: 30px;
+    
+    color: black;
+    font-family: BigShouldersEB,sans-serif;
+    font-size: 35px;
 }
 li{
     display: flex;
@@ -53,6 +51,7 @@ ul{
     justify-content: center;
     padding: 15px 22px 15px 0;
 }
+
 nav>ul>h2{
     color: white;
     font-family: Rajdhani;
@@ -76,38 +75,56 @@ nav ul li a:hover{
     color: blue;
 }
 footer{
-    box-sizing: content-box;
-    color: white;
-    border: solid azure;
-    padding: 5px;
+   
+    color: black;
+    border: 1px solid black;
+    margin: 50px;
     text-align: center;
 }
-
-
-
 
 audio{
     padding: 8px; 
     border-radius: 15px;
     box-shadow: 0 2px 8px rgb(111, 111, 111);
+    margin: 0 500px;
     
 }
+
+p{
+    font-family: 'ChildrenSans';
+}
+
+ul>li>a{
+    text-decoration: none;
+}
+a>h4{
+    text-align: center;
+    margin: 80px;
+}
+
+ul>li>a{
+    text-decoration: none;
+}
+
+/****************************************************/
 
 .subtitle{
     color: aquamarine;
 }
-/****************************/
 .main{
     text-align: center;
     padding: 30px 80px;
     display: block;
 }
-p{
-    font-family: 'Blogger Sans';
-}
 
+.imgd{
+    margin: 0 0 150px; 
+}
+.logo:hover{
+    opacity: 50%;
+}
 .main p{
-    text-align: left;
+    text-align: center;
     font-weight: lighter;
     padding: 15px;
     /*background:linear-gradient(rgb(0, 123, 153),rgb(146, 0, 224) 80%);*/
@@ -116,18 +133,12 @@ p{
     color: aquamarine;
     width: auto;
     font-size: 19px;
-    border: 1px solid aqua;
-}
-.more-info{
-    margin: 20px auto;
-    padding: 5px;
 }
 .main img{
     margin: 0 9px;
     width: auto;
     height: 500px;
     border-radius: 20%;
-    border: 2px solid rgb(172, 132, 1);
     box-shadow: 1px 2px 20 blueviolet;
 }
 
@@ -135,20 +146,62 @@ p{
     width: auto;
     height: 250px;
     margin: 0 50px;
-    border:1px solid rgb(0, 98, 128);
+    float: right;
+    rotate: -15deg;
+    
     padding: 5px;
 }
-.main h1{
-    text-align: left;
-    padding: 5px;
-    color: #5ee3f5b3;
-    font-weight: lighter;
-    border: solid rgb(192, 240, 255);
-    width: 220px;
-    font-family: Rajdhani, sans-serif;
-    font-weight: bold;
-    margin: 15px;
+
+.main .imgd p{
+    color: black;
+    padding: 0 50px;
+    font-size: 18px;
+    width: 400px;
+    
+    text-align: right;
+    
+    
 }
+
+.main .imgd h1{
+    font-family: Chapbook;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+    color: rgb(50, 50, 50);
+    width: 330px;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 15px 500px;
+}
+.main .imgd .iz{
+    float: left;
+    margin: 25px 250px;
+    rotate: 15deg;
+}
+
+.main .imgd .albums_a img{
+    margin: 30px 25px;
+    rotate: 0deg;
+    width: 240px;
+    height: auto;
+    float: inherit;
+}
+.albums_a{
+    margin: 35px;
+}
+
+.main .imgd .albums_b img{
+    margin: 30px 105px;
+    width: 300px;
+    height: auto;
+    float: inherit;
+    
+}
+.albums_b{
+    margin: 35px;
+}
+
 .main h2{
     text-align: left;
     padding: 5px;
@@ -156,7 +209,6 @@ p{
     font-weight: lighter;
     border: solid pink;
     width: 220px;
-    font-family: Rajdhani, sans-serif;
     font-weight: bold;
     margin: 15px;
 }
@@ -165,27 +217,41 @@ p{
     border: solid aqua;
 }
 
-.minim2{
+.minim{
     padding: 0 0 15px;
-    position: fixed;
 }
-ul>li>a{
-    text-decoration: none;
+
+.sub2 h2{
+    color: rgb(51, 51, 51);
+    font-size: 32px;
+    text-decoration: underline;
+    font-family: Chapbook;
 }
-a>h4{
-    text-align: center;
-    margin: 80px;
-}
-.minim2 ul li a h4{
+
+.minim img{
     color: transparent;
     text-decoration: none;
-    width: 200px;
-    height: 80px;
-    margin: 15px auto;
-    
+    width: 250px;
+    height: auto;
+    margin: 80px 115px;
+    transition: all 0.5s ease;
 }
+.minim img:hover{
+    opacity: 20%;
+    color: black;
+}
+
+.minim p{
+    color: black;
+    
+    padding: 0 20px 35px 0px;
+    margin: 10px 350px;
+    font-weight: normal;
+    text-shadow: 4px 1px 18px rgb(235, 190, 255);
+}
+
 .main_content{
-    margin: 0 350px;
+    margin: 0 400px;
 }
 .main_content img{
     height: 500px;
@@ -194,6 +260,58 @@ a>h4{
 .main_content h2{
  margin: 0 0 10px;   
 }
+.main_content h1{
+    text-align: center;
+    margin: 0 0 50px;
+}
+.main_content .imgd img{
+    width: 450px;
+    height: auto;
+    
+    
+}
+.main_content .imgd p{
+    margin: 0 15px 80px;
+}
+
+.main_content .imgd .right{
+    margin: 25px;
+    float: right;
+}
+.main_content .imgd .left{
+    float: left;
+    margin: 15px;
+}
+
+
+
+/****************************************************************************************/
+
+
+.minim2{
+    box-sizing: border-box;
+    position: fixed;
+    
+}
+.minim2 ul li a h4{
+    color: transparent;
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    margin: 15px auto;
+    margin-left: 1;
+    
+}
+.minim2 .home{
+    background-image: url(../icons/icon_home.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .home:hover{
+    background-image: url(../icons/icon_home_op.svg);
+
+}
+
 .minim2 .hob{
     background-image: url(../icons/icon_hobbies.svg);
     transition: all 0.5s ease;
@@ -217,7 +335,42 @@ a>h4{
 .minim2 .ent:hover{
     background-image: url(../icons/icon_entorno_op.svg);
 }
+
+.minim2 .fr{
+    background-image: url(../icons/icon_friend.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .fr:hover{
+    background-image: url(../icons/icon_fr_op.svg);
+}
+
+.minim2 .msct{
+    background-image: url(../icons/icon_masct.svg);
+    transition: all 0.5 ease;
+}
+
+.minim2 .msct:hover{
+    background-image: url(../icons/icon_masct_op.svg);
+}
+
+.minim2 .back{
+    background-image: url(../icons/back.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .back:hover{
+    background-image: url(../icons/back_op.svg);
+}
+
+/*******************  ***************************************/
+
 /*.minim ul li a h4:hover{
     background-image: url(../icons/icon_entorno.svg);
     color: black;
 }*/
+
+.sub3 h2{
+    color: rgb(54, 255, 117);
+    border: solid rgb(80, 255, 165);
+}
