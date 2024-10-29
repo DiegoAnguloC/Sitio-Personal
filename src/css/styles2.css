@@ -411,6 +411,23 @@ ul>li>a{
     background-image: url(../icons/back_op.svg);
 }
 
+.minim2 .wrk1{
+    background-image: url(../icons/icon_tarea1.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .wrk1:hover{
+    background-image: url(../icons/icon_tarea1_op.svg);
+}
+
+.minim2 .wrk2{
+    background-image: url(../icons/icon_tarea2.svg);
+    transition: all 0.5s ease;
+}
+
+.minim2 .wrk2:hover{
+    background-image: url(../icons/icon_tarea1_op.svg);
+}
 /*******************  ***************************************/
 
 /*.minim ul li a h4:hover{
