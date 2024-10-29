@@ -52,6 +52,12 @@ ul{
     padding: 15px 22px 15px 0;
 }
 
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Chapbook;
+}
+
 nav>ul>h2{
     color: white;
     font-family: Rajdhani;
@@ -157,7 +163,6 @@ ul>li>a{
     padding: 0 50px;
     font-size: 18px;
     width: 400px;
-    
     text-align: right;
     
     
@@ -174,14 +179,18 @@ ul>li>a{
     font-size: 35px;
     margin: 15px 500px;
 }
+
 .main .imgd .iz{
     float: left;
-    margin: 25px 250px;
-    rotate: 15deg;
+    margin: 25px 235px;
+    rotate: 10deg;
+    width: 510px;
+    height: auto;
+    border-radius: 0;
 }
 
 .main .imgd .albums_a img{
-    margin: 30px 25px;
+    margin: 30px 11px;
     rotate: 0deg;
     width: 240px;
     height: auto;
@@ -192,7 +201,7 @@ ul>li>a{
 }
 
 .main .imgd .albums_b img{
-    margin: 30px 105px;
+    margin: 30px 45px;
     width: 300px;
     height: auto;
     float: inherit;
@@ -202,15 +211,13 @@ ul>li>a{
     margin: 35px;
 }
 
-.main h2{
-    text-align: left;
+.main .imgd h2{
     padding: 5px;
-    color: #ffa0d9b3;
+    color: grey;
     font-weight: lighter;
-    border: solid pink;
     width: 220px;
     font-weight: bold;
-    margin: 15px;
+    margin: 15px 600px;
 }
 .sub1 h2{
     color: aqua;
@@ -233,7 +240,7 @@ ul>li>a{
     text-decoration: none;
     width: 250px;
     height: auto;
-    margin: 80px 115px;
+    margin: 80px 95px;
     transition: all 0.5s ease;
 }
 .minim img:hover{
@@ -265,24 +272,65 @@ ul>li>a{
     margin: 0 0 50px;
 }
 .main_content .imgd img{
-    width: 450px;
+    width: 350px;
     height: auto;
     
     
 }
+
 .main_content .imgd p{
-    margin: 0 15px 80px;
+    margin: 0 25px 100px;
 }
 
+
 .main_content .imgd .right{
-    margin: 25px;
+    margin: 25px -3px;
     float: right;
+}
+
+.main_content .imgd .right_dib{
+    margin: 25px -3px;
+    float: right;
+    width: 350px;
+    height: auto;
 }
 .main_content .imgd .left{
     float: left;
     margin: 15px;
 }
+.main_content .imgd .esp{
+    float: left;
+    margin: 15px;
+    height: auto;
+    width: 550px;
+}
 
+
+.main_content .main2 .right{
+    width: 310px;
+    height: auto;
+    margin: 25px -40px;
+}
+
+.main2 .imgd h2{
+    text-align: center;
+}
+
+
+.main_content .main2 p{
+    text-align: left;
+    margin: 30px 80px;
+    width: 650px;
+    
+}
+
+
+.main_content .imgd .main2 .left{
+    width: 310px;
+    height: auto;
+    margin: 25px 75px;
+
+}
 
 
 /****************************************************************************************/
